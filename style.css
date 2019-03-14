@@ -1,0 +1,294 @@
+*,
+*:after,
+*:before{
+	margin: 0; 
+	padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #FCFCFC;
+}
+
+/* <<< Home  Strytegy >>> */
+.contHome__manage{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 3%;
+}
+.contHome__manage h1{
+    background: #3913B3;
+    color: #FAFAFA;
+    box-shadow:  0px 0px 8px #999 ;
+    padding: 35px;
+    height: 58vh;   
+    font-size: 50px;
+}
+.contHome__manage img{
+    margin: 5%;
+    position: relative;
+    top: 19px;
+
+}
+.contHome__manage input{
+    background-color: #4152C0;
+    color: #FAFAFA;
+    border: none;
+    border-radius: 4px;
+    margin: 1%;
+    padding: 1% 2%;
+}
+/* <<< Home  Strytegy >>> */
+.contHome__collective{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.contHome__collective div{
+    width: 50%;
+    margin-left: 2%;
+    margin-top: -2%;
+}
+.contHome__collective div:nth-child(1) p{
+    background: #52C6D8;
+    box-shadow:  0px 0px 8px #999;
+    padding: 40px 67px;
+    height: 43vh;
+    width: 45%;
+    line-height: 1.5;
+}
+.home__inputs{
+    margin-left: -16px;;
+}
+.contHome__collective div:nth-child(1) .home__input{
+    text-align: center;
+    background-color: #FAFAFA;
+    border: solid 0.56px #EDEDED;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-left: 47px;
+    padding: 3%;
+    width: 39%;
+}
+.contHome__collective div:nth-child(1) .home__submit{
+    background-color: #4152C0;
+    color: #FAFAFA;
+    border: none;
+    border: solid 0.56px  #4152C0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-left: -4px;
+    padding: 3%;
+    width: 33%;
+}
+
+.contHome__collective  img{
+    width: 98%;
+    border-radius: 1px;
+    border: solid 1px #CECECE;
+    box-shadow:  0px 0px 8px #999 ;
+    
+}
+
+/* <<< Home  Strytegy >>> */
+
+.contHome__realTime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+.contHome__realTime h1{
+    width: 57%;
+   color: #505050;
+   font-size: 44px;
+}
+
+
+/* <<< Sobre  Strytegy >>> */
+
+.contSobre__descripition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+}
+.contSobre__descripition div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+}
+.contSobre__descripition div img{
+    width: 204.83px;
+    height: 244.83px;
+}
+
+.contSobre__descripition div h1{
+    color: #3913B3;
+    width: 158px;
+    text-align: center;
+    margin: 5%;
+}
+.contSobre__descripition div p{
+    width: 60%;
+    margin: 5%;
+}
+.contSobre__descripition div span{
+    align-self: flex-start;
+    width: 70%;
+    margin-left: 20%;
+    line-height: 1.6;
+}
+
+/* <<< Sobre  Strytegy >>> */
+
+.contSobre__explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contSobre__explore h1{
+   color: #3913B3;
+   font-size: 32px;
+   margin: 9%;
+}
+.contSobre__explore span{
+    border-bottom: solid 2px #FF2D9F;
+ }
+
+/* <<< Footer  Strytegy >>> */
+footer{
+    display: flex;
+    background-color: #fff;
+    padding-bottom: 6%;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contContact__email{
+    width: 33%;
+    padding: 5%;
+}
+.contContact__email h1{
+    width: 96%;
+    font-size: 24px;
+    margin: 1%;
+}
+
+.contContact__email label{
+    color: #4152C0;
+    margin: 10%;
+    font-size: 12px;
+}
+.contContact__email input:nth-child(2){
+    text-align: center;
+    background-color: #FAFAFA;
+    border: solid 0.56px #EDEDED;
+    border-radius: 4px;
+    margin: 2%;
+    padding: 4%;
+    width: 100%;
+   
+}
+.contContact__email input:nth-child(3){
+    background-color: #4152C0;
+    color: #FAFAFA;
+    border: none;
+    border-radius: 4px;
+    margin: 2%;
+    padding: 4%;
+    width: 100%;
+}
+
+
+.contContact__aboutUs{
+    width: 33%;
+    margin-top: 9%;
+    
+}
+.contContact__aboutUs h1{
+    align-self: flex-start;
+    font-size: 24px;
+    margin: 1%;
+    margin-left: 70px;
+}
+.contContact__aboutUs p{
+    align-self: center;
+    width: 68%;
+    line-height: 1.5;
+    margin: 0.50%;
+}
+.contContact__socialNetworks{
+    width: 33%;
+    padding: 5%;
+}
+.contContact__socialNetworks h1{
+    align-self: flex-start;
+    font-size: 24px;
+    margin-top: 11%;
+}
+.contContact__socialNetworks h2{
+    align-self: flex-start;
+    width: 56%;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.contContact__socialNetworks ul{
+    display: flex;
+    align-self: flex-start;
+    margin-top: 10%;
+    margin-left: -13px
+}
+.contContact__socialNetworks ul a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 15px;
+}
+.contContact__socialNetworks figure{
+    display: flex;
+    align-self: flex-start;
+}
+.contContact__socialNetworks figure a{
+    color: #000;
+    text-decoration: none;
+
+}
+.contContact__socialNetworks figure a:hover{
+    text-transform: uppercase;
+    border-bottom: solid 1px #FF2D9F;
+    font-weight: 900;
+}
+.language{
+    margin-top: 10%
+}
+.language a:nth-child(2){
+    margin-left: 90%;
+}
+
+@media (max-width: 768px){
+    footer{
+        flex-direction: column;
+    }
+    .contContact__email{
+        width: 100%;
+        display: grid;
+    }
+    .contContact__aboutUs{
+        width: 100%;
+        display: grid;
+    }
+    .contContact__socialNetworks{
+        display: grid;
+        width: 100%;
+    }
+    
+}
+
+

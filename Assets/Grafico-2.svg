@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="248.861" height="205.82" viewBox="0 0 248.861 205.82">
+  <g id="Group_6939" data-name="Group 6939" transform="translate(-558.992 -1058.988)">
+    <path id="Path_6666" data-name="Path 6666" d="M-9505.071-19398.012c-76,0-68.2,86.078,73.448,86.078,130.828,0,152.332,87.49,74.373,87.49C-9512.241-19224.443-9371.395-19398.012-9505.071-19398.012Z" transform="translate(10115.852 20485.252)" fill="none" stroke="#52c6d8" stroke-width="8" opacity="0.4"/>
+    <text id="Operation" transform="translate(720.956 1244.061)" fill="#52c6d8" font-size="15" font-family="Korolev-Medium, Korolev" font-weight="500"><tspan x="0" y="0">Operation</tspan></text>
+    <text id="Strategy" transform="translate(582.375 1072.988)" fill="#52c6d8" font-size="15" font-family="Korolev-Medium, Korolev" font-weight="500"><tspan x="0" y="0">Strategy</tspan></text>
+    <text id="Tactics" transform="translate(687.885 1158.754)" fill="#52c6d8" font-size="15" font-family="Korolev-Medium, Korolev" font-weight="500"><tspan x="0" y="0">Tactics</tspan></text>
+  </g>
+</svg>

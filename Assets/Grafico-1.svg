@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250.157" height="190.157" viewBox="0 0 250.157 190.157">
+  <g id="Group_6947" data-name="Group 6947" transform="translate(-171.843 -1067)">
+    <g id="Group_6944" data-name="Group 6944" transform="translate(90 51.844)">
+      <line id="Line_655" data-name="Line 655" x2="23.156" y2="23.156" transform="translate(238.5 1145.5)" fill="none" stroke="#ecacce" stroke-linecap="round" stroke-width="8"/>
+      <line id="Line_656" data-name="Line 656" x2="23.156" y2="23.156" transform="translate(261.656 1145.5) rotate(90)" fill="none" stroke="#ecacce" stroke-linecap="round" stroke-width="8"/>
+    </g>
+    <g id="Group_6945" data-name="Group 6945" transform="translate(5 -30.156)">
+      <line id="Line_655-2" data-name="Line 655" x2="23.156" y2="23.156" transform="translate(238.5 1145.5)" fill="none" stroke="#ecacce" stroke-linecap="round" stroke-width="8"/>
+      <line id="Line_656-2" data-name="Line 656" x2="23.156" y2="23.156" transform="translate(261.656 1145.5) rotate(90)" fill="none" stroke="#ecacce" stroke-linecap="round" stroke-width="8"/>
+    </g>
+    <g id="Group_6946" data-name="Group 6946" transform="translate(-61 82.844)">
+      <line id="Line_655-3" data-name="Line 655" x2="23.156" y2="23.156" transform="translate(238.5 1145.5)" fill="none" stroke="#ecacce" stroke-linecap="round" stroke-width="8"/>
+      <line id="Line_656-3" data-name="Line 656" x2="23.156" y2="23.156" transform="translate(261.656 1145.5) rotate(90)" fill="none" stroke="#ecacce" stroke-linecap="round" stroke-width="8"/>
+    </g>
+    <g id="Ellipse_1114" data-name="Ellipse 1114" transform="translate(383 1067)" fill="#fcfcfc" stroke="#ecacce" stroke-width="8">
+      <circle cx="19.5" cy="19.5" r="19.5" stroke="none"/>
+      <circle cx="19.5" cy="19.5" r="15.5" fill="none"/>
+    </g>
+    <line id="Line_657" data-name="Line 657" y1="28" x2="95" transform="translate(217.5 1208.5)" fill="none" stroke="#ecacce" stroke-linecap="round" stroke-width="8"/>
+    <line id="Line_658" data-name="Line 658" x1="80" y1="29" transform="translate(257.5 1153.5)" fill="none" stroke="#ecacce" stroke-linecap="round" stroke-width="8"/>
+    <line id="Line_659" data-name="Line 659" y1="30" x2="87" transform="translate(283.5 1093.5)" fill="none" stroke="#ecacce" stroke-linecap="round" stroke-width="8"/>
+  </g>
+</svg>
