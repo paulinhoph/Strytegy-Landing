@@ -9,11 +9,15 @@ body{
     background-color: #FCFCFC;
 }
 /* <<< Home  Strytegy >>> */
+header{
+    padding: 5%;
+}
 .contHome__manage{
     display: flex;
     justify-content: center;
     align-items: baseline;
     margin: 3%;
+    margin-left: -39px;
 }
 .contHome__manage h1{
     background: #3913B3;
@@ -23,11 +27,10 @@ body{
     padding: 35px;
     height: 58vh;   
     font-size: 50px;
+ 
 }
 .contHome__manage img{
-    margin: 5%;
-    position: relative;
-    top: 19px;
+    margin: 8.99%;
 }
 .contHome__manage input{
     background-color: #4152C0;
@@ -35,7 +38,7 @@ body{
     border: none;
     border-radius: 4px;
     margin: 1%;
-    padding: 10px 36px 3%;
+    padding:  8px 18px 3%;
     height: 6vh;
     margin-top: 15%;
     font-family:"korolev";
@@ -44,9 +47,9 @@ body{
     display: inline-flex;
 }
 .contHome__logo{
-    position: absolute;
-    left: 34%;
-    top: -226px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media (max-width: 768px){
     .contHome__manage{
@@ -72,43 +75,36 @@ body{
         width: 100%;
         padding: 6px;
     }
-    .contHome__logo{
-        left: 34%;
-        top: -170px;
-    }
 }
-@media (max-width: 1024px){
-     .contHome__logo{
-        left: 34%;
-        top: -170px;
-    }
-}
+
 /* <<< Home  Strytegy >>> */
 .contHome__collective{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;   
+    padding: 5%;
+    margin-top: -283px;
 
 }
 .contHome__collective div{
-    width: 50%;
-    margin-left: 2%;
-    margin-top: -1%;
+    width: unset;
+    
 }
 .contHome__collective div:nth-child(1){
-    position: absolute;
-    left: 9%;
-    top: -200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .contHome__collective div:nth-child(1) p{
     background: #52C6D8;
-    box-shadow:  0px 0px 8px #999;
-    padding: 40px 67px;
-    font-family:"korolev";
+    box-shadow: 0px 0px 8px #999;
+    padding: 23px 59px;
+    font-family: "korolev";
     height: 43vh;
-    width: 45%;
+    width: 275px;
     line-height: 1.5;
+    margin-left: 51px;
 }
 .home__inputs{
     margin-left: -16px;
@@ -121,7 +117,7 @@ body{
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     font-family:"korolev";
-    margin-left: 47px;
+    margin-left: 80px;
     padding: 3%;
     width: 39%;
 }
@@ -137,12 +133,18 @@ body{
     width: 33%;
 }
 .contHome__collective  img{
-    width: 98%;
+    width: 82%;
     border-radius: 1px;
     border: solid 1px #CECECE;
-    box-shadow:  0px 0px 8px #999 ;   
+    box-shadow: 0px 0px 8px #999;
+    margin-right: 67px;
 }
 
+@media (max-width: 768px){
+    .contHome__collective{
+        flex-direction: column-reverse;
+    }
+}
 /* <<< Home  Strytegy >>> */
 .contHome__realTime{
     display: flex;
@@ -151,18 +153,15 @@ body{
     margin-top: 20%;
 }
 .contHome__realTime h1{
-    width: 57%;
+    width: 70%;
     font-family:"korolev";
    color: #505050;
    font-size: 44px;
+   text-align: center;
 }
 @media (max-width: 768px){
-    .contHome__realTime{
-      
-    }
     .contHome__realTime h1{
         width: 427px;
-        text-align: center;
        
     }
  }
@@ -187,22 +186,23 @@ body{
 
 .contSobre__descripition div h1{
     color: #3913B3;
-    width: 158px;
+    width: 100%;
     text-align: center;
     margin: 5%;
     font-family:"korolev";
 }
 .contSobre__descripition div p{
-    width: 68%;
+    width: 73%;
     margin: 5%;
     font-weight: 600;
     font-family: "korolev";
+    line-height: 1.8;
 }
 .contSobre__descripition div span{
     align-self: flex-start;
     width: 68%;
     margin-left: 15%;
-    line-height: 1.8;
+    line-height: 2;
     font-family: "korolev";
 }
 @media (max-width: 768px){
@@ -232,9 +232,10 @@ body{
  @media (max-width: 768px){
     .contSobre__explore{
        flex-direction: column;
+       margin-left: 24px;
     }
     .contSobre__explore h1{
-        width: 307px;
+        width: 297px;
      }
      
  }
@@ -255,7 +256,7 @@ footer div{
     padding: 5%;
 }
 .contContact__email h1{
-    width: 96%;
+    width: 94%;
     font-size: 24px;
     font-family:"korolev";
     margin: 1%;
@@ -315,7 +316,7 @@ footer div{
 }
 .contContact__socialNetworks h2{
     align-self: flex-start;
-    width: 56%;
+    width: 57%;
     font-family:"korolev";
     font-size: 20px;
     margin-top: 2%;
@@ -362,19 +363,26 @@ footer div{
         width: 100% ;
     }
     .contContact__email h1{
-        width: 300px;
+        width: 280px;
     }
     .contContact__aboutUs{
-        width: 100%;
+        width: 325px;
         order: 1;
     }
+    .contContact__aboutUs h1{
+        margin-left: 23px;
+    }
+    .contContact__aboutUs p{
+        margin: 1.5%;
+        align-self: unset;
+        margin-left: -52px;
+    }
     .contContact__socialNetworks {
-        width: 100%;
-        padding: 5%;
+        width: 278px;
+        padding: 0;
     }
     .contContact__socialNetworks h2{
-        width: 100%;
-        padding: 5%;
+        width: 67%;
     }
     
 }
