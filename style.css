@@ -18,6 +18,7 @@ body{
 .contHome__manage h1{
     background: #3913B3;
     color: #FAFAFA;
+    font-family:"korolev";
     box-shadow:  0px 0px 8px #999 ;
     padding: 35px;
     height: 58vh;   
@@ -37,6 +38,7 @@ body{
     padding: 10px 36px 3%;
     height: 6vh;
     margin-top: 15%;
+    font-family:"korolev";
 }
 .Log-in{
     display: inline-flex;
@@ -92,7 +94,7 @@ body{
 .contHome__collective div{
     width: 50%;
     margin-left: 2%;
-    margin-top: -2%;
+    margin-top: -1%;
 }
 .contHome__collective div:nth-child(1){
     position: absolute;
@@ -103,12 +105,14 @@ body{
     background: #52C6D8;
     box-shadow:  0px 0px 8px #999;
     padding: 40px 67px;
+    font-family:"korolev";
     height: 43vh;
     width: 45%;
     line-height: 1.5;
 }
 .home__inputs{
-    margin-left: -16px;;
+    margin-left: -16px;
+
 }
 .contHome__collective div:nth-child(1) .home__input{
     text-align: center;
@@ -116,6 +120,7 @@ body{
     border: solid 0.56px #EDEDED;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
+    font-family:"korolev";
     margin-left: 47px;
     padding: 3%;
     width: 39%;
@@ -147,6 +152,7 @@ body{
 }
 .contHome__realTime h1{
     width: 57%;
+    font-family:"korolev";
    color: #505050;
    font-size: 44px;
 }
@@ -184,17 +190,20 @@ body{
     width: 158px;
     text-align: center;
     margin: 5%;
+    font-family:"korolev";
 }
 .contSobre__descripition div p{
-    width: 60%;
+    width: 68%;
     margin: 5%;
     font-weight: 600;
+    font-family: "korolev";
 }
 .contSobre__descripition div span{
     align-self: flex-start;
-    width: 70%;
-    margin-left: 20%;
-    line-height: 1.6;
+    width: 68%;
+    margin-left: 15%;
+    line-height: 1.8;
+    font-family: "korolev";
 }
 @media (max-width: 768px){
    .contSobre__descripition{
@@ -212,6 +221,7 @@ body{
 }
 .contSobre__explore h1{
    color: #3913B3;
+   font-family:"korolev";
    font-size: 32px;
    margin: 9%;
 }
@@ -247,10 +257,12 @@ footer div{
 .contContact__email h1{
     width: 96%;
     font-size: 24px;
+    font-family:"korolev";
     margin: 1%;
 }
 .contContact__email label{
     color: #4152C0;
+    font-family:"korolev";
     margin: 10%;
     font-size: 12px;
 }
@@ -259,6 +271,7 @@ footer div{
     background-color: #FAFAFA;
     border: solid 0.56px #EDEDED;
     border-radius: 4px;
+    font-family:"korolev";
     margin: 2%;
     padding: 4%;
     width: 100%;
@@ -279,6 +292,7 @@ footer div{
 .contContact__aboutUs h1{
     align-self: flex-start;
     font-size: 24px;
+    font-family:"korolev";
     margin: 1%;
     margin-left: 70px;
 }
@@ -286,6 +300,7 @@ footer div{
     align-self: center;
     width: 68%;
     line-height: 1.5;
+    font-family:"korolev";
     margin: 0.50%;
 }
 .contContact__socialNetworks{
@@ -295,11 +310,13 @@ footer div{
 .contContact__socialNetworks h1{
     align-self: flex-start;
     font-size: 24px;
+    font-family:"korolev";
     margin-top: 11%;
 }
 .contContact__socialNetworks h2{
     align-self: flex-start;
     width: 56%;
+    font-family:"korolev";
     font-size: 20px;
     margin-top: 2%;
 }
@@ -313,6 +330,7 @@ footer div{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    font-family:"korolev";
     margin: 15px;
 }
 .contContact__socialNetworks figure{
@@ -322,6 +340,7 @@ footer div{
 .contContact__socialNetworks figure a{
     color: #000;
     text-decoration: none;
+    font-family:"korolev";
 }
 .contContact__socialNetworks figure a:hover{
     text-transform: uppercase;
