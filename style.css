@@ -11,6 +11,7 @@ body{
 /* <<< Home  Strytegy >>> */
 header{
     padding: 5%;
+    margin-top: -80px;
 }
 .contHome__manage{
     display: flex;
@@ -30,7 +31,7 @@ header{
  
 }
 .contHome__manage img{
-    margin: 8.99%;
+    margin: 13.99%;
 }
 .contHome__manage input{
     background-color: #4152C0;
@@ -40,7 +41,7 @@ header{
     margin: 1%;
     padding:  8px 18px 3%;
     height: 6vh;
-    margin-top: 15%;
+    margin-top: 20%;
     font-family:"korolev";
 }
 .Log-in{
@@ -99,7 +100,7 @@ header{
 .contHome__collective div:nth-child(1) p{
     background: #52C6D8;
     box-shadow: 0px 0px 8px #999;
-    padding: 23px 59px;
+    padding: 18px 47px;
     font-family: "korolev";
     height: 43vh;
     width: 275px;
@@ -201,7 +202,7 @@ header{
 .contSobre__descripition div span{
     align-self: flex-start;
     width: 68%;
-    margin-left: 15%;
+    margin-left: 49px;
     line-height: 2;
     font-family: "korolev";
 }
