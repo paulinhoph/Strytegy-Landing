@@ -164,11 +164,9 @@ header{
    text-align: center;
 }
 @media (max-width: 768px){
-    .contHome__realTime{
-        margin-right: -29px;
-    }
     .contHome__realTime h1{
-        width: 427px;
+        margin-left: 30px;
+        width: 330px;
         font-size: 1.9em;
        
     }
@@ -225,10 +223,10 @@ header{
    }
    .contSobre__descripition div p{
         width: 75%;
-        margin-left: 52px;
+        margin-left: 16px;
    }
    .contSobre__descripition div span{
-    margin-left: 64px;
+        margin-left: 46px;
    }
 }
 /* <<< Sobre  Strytegy >>> */
@@ -251,6 +249,7 @@ header{
     .contSobre__explore{
        flex-direction: column;
        margin-left: 80px;
+       margin-left: 15px;
     }
     .contSobre__explore h1{
         width: 297px;
@@ -258,12 +257,7 @@ header{
      }
      
  }
- @media (max-width: 768px){
-    .contSobre__explore{
-       margin-left: 50px;
-    }
-     
- }
+ 
 /* <<< Footer  Strytegy >>> */
 footer{
     display: flex;
@@ -405,7 +399,7 @@ footer div{
         flex-direction: column;
         align-items: center;
         margin-top: 10%;
-        min-width: 108%;
+        width: 100%;
     }
     .contContact__email{
         width: 100% ;
@@ -434,6 +428,8 @@ footer div{
     }
     
 }
-@media (max-width: 942px){
-    
+@media (max-width: 375px){
+    footer{
+        width: 105%;
+    }
 }
