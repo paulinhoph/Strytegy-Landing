@@ -216,6 +216,7 @@ header{
     }
    .contSobre__descripition{
         flex-direction: column;
+        margin: 70px;
    }
    .contSobre__descripition div{
         width: 375px;
@@ -253,7 +254,7 @@ header{
     }
     .contSobre__explore h1{
         width: 297px;
-        margin-top: 84px;
+        margin-top: 10px;
      }
      
  }
