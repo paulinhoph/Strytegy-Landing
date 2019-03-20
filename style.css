@@ -42,6 +42,7 @@ header{
     padding:  8px 18px 3%;
     height: 6vh;
     margin-top: 20%;
+    font-size: 1em;
     font-family:"korolev";
 }
 .Log-in{
@@ -58,14 +59,14 @@ header{
         align-items: center;
     }
     .contHome__manage h1{
-        margin-top: 50%;
+        display: none;
     }
     .Log-in{
-        display: flex;
-        justify-content: center;
+        display: none;
+        /* justify-content: center;
         align-items: center;
         width: 100%;
-        order: -1;
+        order: -1; */
     }
     .contHome__manage img{
         top: auto;
@@ -77,6 +78,7 @@ header{
         padding: 6px;
     }
 }
+
 
 /* <<< Home  Strytegy >>> */
 .contHome__collective{
@@ -100,12 +102,13 @@ header{
 .contHome__collective div:nth-child(1) p{
     background: #52C6D8;
     box-shadow: 0px 0px 8px #999;
-    padding: 18px 47px;
+    padding: 29px 47px;
     font-family: "korolev";
     height: 43vh;
-    width: 275px;
-    line-height: 1.5;
+    width: 282px;
+    line-height: 1.6;
     margin-left: 51px;
+
 }
 .home__inputs{
     margin-left: -16px;
@@ -134,7 +137,7 @@ header{
     width: 33%;
 }
 .contHome__collective  img{
-    width: 82%;
+    width: 87%;
     border-radius: 1px;
     border: solid 1px #CECECE;
     box-shadow: 0px 0px 8px #999;
@@ -143,7 +146,7 @@ header{
 
 @media (max-width: 768px){
     .contHome__collective{
-        flex-direction: column-reverse;
+       display: none;
     }
 }
 /* <<< Home  Strytegy >>> */
@@ -161,8 +164,12 @@ header{
    text-align: center;
 }
 @media (max-width: 768px){
+    .contHome__realTime{
+        margin-right: -29px;
+    }
     .contHome__realTime h1{
         width: 427px;
+        font-size: 1.9em;
        
     }
  }
@@ -187,7 +194,6 @@ header{
 
 .contSobre__descripition div h1{
     color: #3913B3;
-    width: 100%;
     text-align: center;
     margin: 5%;
     font-family:"korolev";
@@ -207,11 +213,22 @@ header{
     font-family: "korolev";
 }
 @media (max-width: 768px){
+    main{
+        margin-top: 30%;
+    }
    .contSobre__descripition{
-       flex-direction: column;
+        flex-direction: column;
    }
    .contSobre__descripition div{
-       width: 100%;
+        width: 375px;
+        margin: 15%;
+   }
+   .contSobre__descripition div p{
+        width: 75%;
+        margin-left: 52px;
+   }
+   .contSobre__descripition div span{
+    margin-left: 64px;
    }
 }
 /* <<< Sobre  Strytegy >>> */
@@ -233,11 +250,18 @@ header{
  @media (max-width: 768px){
     .contSobre__explore{
        flex-direction: column;
-       margin-left: 24px;
+       margin-left: 80px;
     }
     .contSobre__explore h1{
         width: 297px;
+        margin-top: 84px;
      }
+     
+ }
+ @media (max-width: 768px){
+    .contSobre__explore{
+       margin-left: 50px;
+    }
      
  }
 /* <<< Footer  Strytegy >>> */
@@ -355,10 +379,33 @@ footer div{
 .language a:nth-child(2){
     margin-left: 90%;
 }
+.language__mobile{
+    display: none;
+}
 @media (max-width: 768px){
+    .language{
+        margin-top: 0;
+    }
+    .language a{
+        display: none;
+    }
+    .language__mobile{
+        display: block;
+        margin-left: -216px;
+        margin-top: 10%;
+    }
+    .language__mobile a{
+        color: #000;
+        text-decoration: none;
+        font-family:"korolev";
+        border-bottom: solid 1px #FF2D9F;
+        margin: 10px;
+    }
     footer{
         flex-direction: column;
         align-items: center;
+        margin-top: 10%;
+        min-width: 109%;
     }
     .contContact__email{
         width: 100% ;
@@ -376,7 +423,9 @@ footer div{
     .contContact__aboutUs p{
         margin: 1.5%;
         align-self: unset;
-        margin-left: -52px;
+        margin-left: 36px;
+        width: 314px;
+
     }
     .contContact__socialNetworks {
         width: 278px;
@@ -385,5 +434,8 @@ footer div{
     .contContact__socialNetworks h2{
         width: 67%;
     }
+    
+}
+@media (max-width: 942px){
     
 }
