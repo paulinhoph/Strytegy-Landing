@@ -405,7 +405,7 @@ footer div{
         flex-direction: column;
         align-items: center;
         margin-top: 10%;
-        min-width: 109%;
+        min-width: 108%;
     }
     .contContact__email{
         width: 100% ;
@@ -423,9 +423,7 @@ footer div{
     .contContact__aboutUs p{
         margin: 1.5%;
         align-self: unset;
-        margin-left: 36px;
-        width: 314px;
-
+        margin-left: -52px;
     }
     .contContact__socialNetworks {
         width: 278px;
