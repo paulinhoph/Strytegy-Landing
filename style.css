@@ -53,7 +53,39 @@ header{
     justify-content: center;
     align-items: center;
 }
+.mobileHeader{
+    display: none;
+}
 @media (max-width: 768px){
+    .desktop{
+        display: none;
+    }
+    .mobileHeader{
+        display: block;
+        margin-top: 0;
+        padding: 10%;
+        
+    }
+    .mobileHeader div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobileHeader input{
+        background-color: #4152C0;
+        color: #FAFAFA;
+        border: none;
+        border-radius: 4px;
+        margin: 1%;
+        padding:  8px 18px 3%;
+        height: 6vh;
+        margin-top: 5%;
+        font-size: 1em;
+        font-family:"korolev";
+    }
+    .mobileHeader div img{
+        margin: 13.99%;
+    }
     .contHome__manage{
         flex-direction: column;
         align-items: center;
